@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NewsComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NewsComponent from './components/News/Index.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NewsComponent
   }
 }
 </script>
@@ -21,6 +20,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #CCCCCC;
+  margin: 0px;
+  padding: 0px;
 }
 </style>
